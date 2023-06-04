@@ -1,0 +1,138 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    /*background: #2b8fe1;*/
+    background: linear-gradient(to bottom right , #2b8fe1, rgba(255, 148, 246, 0.315));
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.animation__start
+{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+@media (max-width: 1415px)
+{
+    .container
+    {
+          margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+.header
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.header a
+{
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: ease-out 0.5s;
+}
+.header a:hover
+{
+    transition-duration: 0.3s;
+    color: rgba(255, 255, 255, 0.993);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.hor__line
+{
+    width: 100%;
+    height: 1px;
+    background: rgb(214, 214, 214);
+    margin-bottom: 50px;
+}
+.greeting img
+{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.logo
+{
+    width: 65px;
+    height: 65px;
+}
+.greeting
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.993);
+    margin-bottom: 50px;
+}
+.greeting h1
+{
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 35px black;
+}
+.block__planet
+{
+    text-align: center;
+}
+.block__planet img
+{
+    width: 200px;
+    height: 200px;
+}
+.block__planet a
+{  
+    transition: ease-out 0.5s;
+    
+    width: 200px;
+    height: 200px;
+
+    
+}
+.block__planet a:hover
+{  
+    transition-duration: 0.5s;
+    padding: 40px;
+    width: 200px;
+    height: 200px;
+
+    
+}
+.geeting__planet h2
+{
+    
+    text-align: center;
+    color: rgba(255, 255, 255, 0.993);
+}
+.container__earth
+{
+    margin: auto;
+}
+h2
+{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.993);
+}
+.panel__planet img
+{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+}
+
