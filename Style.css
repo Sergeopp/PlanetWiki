@@ -2,10 +2,21 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     /*background: #2b8fe1;*/
-    background: linear-gradient(to bottom right , #2b8fe1, rgba(255, 148, 246, 0.315));
+    background: radial-gradient(circle, rgba(0,9,84,1) 0%, rgba(0,26,135,1) 39%, rgba(59,0,171,1) 66%, rgba(33,0,56,1) 100%);
     background-repeat: no-repeat;
 }
-
+a{
+    text-decoration: none;
+    color: rgb(0, 90, 173);
+    font-family: inherit;
+    font-size: 20px;
+}
+p
+{
+    color: white; 
+    font-family: inherit;
+    font-size: 20px;
+}
 .container
 {
     margin-left: 300px;
@@ -21,6 +32,7 @@ body{
     }
     100% {
       transform: translateX(0);
+
     }
   }
 @media (max-width: 1415px)
@@ -97,7 +109,7 @@ body{
 }
 .block__planet a
 {  
-    transition: ease-out 0.5s;
+    transition: ease-out 0.2s;
     
     width: 200px;
     height: 200px;
@@ -106,7 +118,7 @@ body{
 }
 .block__planet a:hover
 {  
-    transition-duration: 0.5s;
+    transition: ease-in 0.2s;
     padding: 40px;
     width: 200px;
     height: 200px;
@@ -135,4 +147,18 @@ h2
     display: flex;
     margin: auto;
 }
-
+.resourse img
+{
+    width: 50px;
+    height: 50px;
+}
+.resourse
+{
+    display: flex;
+    text-align: center;
+}
+.resourse__planet-info-iron
+{
+    width: 70px;
+    height: 70px;
+}
